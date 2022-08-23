@@ -1,0 +1,70 @@
+.boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 100px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  .boton_2{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 100px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+    margin-top: 150px;
+  }
+  .boton_2:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  div{
+    margin-top: 50px;
+  }
+
+  nav{
+    margin-top: -50px;
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+    color: darkorange;
+  }
+body{
+    background-image: url("../../assets/images/FondoPastel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+@media (max-width: 600px) {
+
+  nav,.boton_1,.boton_2{
+    font-size: 50px;
+  }
+  body{
+    background-image: url("../../assets/images/FondoPastel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 145%;
+  }
+  nav{
+    margin-top: 150px;
+  }
+
+}

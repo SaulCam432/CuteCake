@@ -1,0 +1,60 @@
+#M{
+	text-align: center;
+}
+#contenido{
+	margin-top: 10px;
+	height: 220px;
+	width: 90%;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: solid;
+	border-radius: 20px;
+	display: inline-block;
+	background-color: white;
+}
+#menu-toggle{
+	margin-right: 5px;
+}
+#registros{
+	background-color: white;
+}
+#Logo{
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+	height: 180px;
+	width: 180px;
+	border: solid;
+}
+
+#Titulo{
+	text-align: center;
+	font-size: 100px;
+	font-style: oblique;
+	height: 350px;
+	width: 100%;
+	vertical-align: middle;
+	display: flex;
+	background-image: url("../../assets/images/FondoPastel.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 350px;
+	justify-content: center;
+	align-items: center;
+}
+@media (max-width: 320px) {
+  #Titulo{
+  	font-size:70px;
+  } 
+  #contenido{
+  	height:400px; 
+  	width:400px;
+  }
+  #txtBuscar{
+  	width: 100px;
+  	margin-right: 5px;
+  }
+  .table-responsive{
+  	width: 80%;
+  }
+}

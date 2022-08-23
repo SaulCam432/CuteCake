@@ -1,0 +1,6 @@
+@media screen and (max-width: 320px){
+	table{
+		display: inline-block;
+		overflow-x: auto; 
+	}
+}
